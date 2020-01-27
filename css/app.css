@@ -1,0 +1,581 @@
+/*MENU*/
+
+header a {
+  color: #fff;
+}
+
+header .menu-link {
+  text-align: right;
+  line-height: 1;
+  text-decoration: none;
+  color: #fff;
+}
+
+.reveal {
+  background-color: #212121;
+}
+
+.reveal .grid-x {
+  height: 100vh;
+}
+
+.reveal .menu a {
+	font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #fff;
+}
+
+
+
+
+
+/*NAVIGATION*/
+
+
+.logo img {
+	height: 3rem;
+}
+
+.button {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: .9rem;
+	letter-spacing: .05rem;
+	text-transform: uppercase;
+	background-color: transparent;
+	margin-left: 1rem;
+}
+
+.button:hover {
+	background-color: transparent;
+	border-bottom: 1px solid white;
+
+}
+
+.button.is-active, .button:focus {
+	background-color: transparent;
+
+}
+
+.menu a, .menu .button {
+    padding: 0.7rem 0rem;
+}
+
+header {
+	padding: 2rem;
+	z-index: 1;
+	background-color: rgba(0,0,0,.75);
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+}
+
+.orbit-figure img {
+width: 100%;
+}
+
+
+
+
+
+/*BOOKING*/
+
+
+.booking {
+	padding: 2rem;
+	padding-top: 1rem;
+	padding-bottom: .5rem;
+	z-index: 1;
+	background-color: rgba(0,0,0,.75);
+	width:100%;
+	bottom:0;
+	left:0;
+}
+
+.booking h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75rem;
+}
+
+.booking h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	margin-bottom: -.5rem;
+}
+
+.booking h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75rem;
+	margin-bottom: -.15rem;
+	letter-spacing: .1rem;
+}
+
+.booking p {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-style: 1rem;
+}
+
+.reserve {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	color: white;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+.reserve:hover {
+	background-color: transparent;
+	border-bottom: 1px solid white;
+
+}
+
+#confirm-booking {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	border-color: transparent;
+	padding:2rem;
+	background-color: rgba(0,0,0,.75);
+
+
+}
+
+
+
+
+
+/*WELCOME*/
+
+
+body {
+	background:#212121 ;
+	color: white;
+}
+
+.welcome {
+	margin-top: 6rem;
+}
+
+.welcome h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85rem;
+	text-align: left;
+	font-weight: 400;
+	letter-spacing: .25rem;
+}
+
+.welcome h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.65rem;
+	text-align: left;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1.2;
+	padding-bottom: 1rem;
+}
+
+.welcome p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+/*	font-size: 1rem;
+*/
+}
+
+.pull1 {
+	margin-right: -200px;
+	transform: scale(1) translateX(55px);
+}
+
+.pull1 img{
+	box-shadow: 0 0 40px rgba(0,0,0,1);
+}
+
+.stay {
+transform: scale(1.1) translateX(-10px);
+z-index: -1;
+}
+
+
+
+
+/*EVENTS*/
+
+.upcomingevents h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85rem;
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: .15rem;
+	text-transform: uppercase;
+	margin-top: 5rem;
+	margin-bottom: 0rem;
+}
+
+.upcomingevents h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.65rem;
+	text-align: center;
+	font-weight: 400;
+	font-style: italic;
+	padding-bottom: 1rem;
+	margin-top: -1.35rem;
+}
+
+
+
+
+.events img {
+	padding: 1.5rem;
+	padding-bottom: 1rem;
+}
+
+.events h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.65rem;
+	padding: 3rem;
+	padding-bottom: 0rem;
+}
+
+.events h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.4rem;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: .3rem;
+}
+
+.events h2 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: .75rem;
+	letter-spacing: .25rem;
+	margin-bottom: 0rem;
+}
+
+.events p {
+font-family: 'Open Sans', sans-serif;
+font-size: .85rem;
+text-align: center;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+margin-bottom: 7rem;
+}
+
+
+
+
+/*SERVICES*/
+
+.service-list h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85rem;
+	text-align: center;
+	font-weight: 400;
+	letter-spacing: .15rem;
+	text-transform: uppercase;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+}
+
+.service-list h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.65rem;
+	text-align: center;
+	font-weight: 400;
+	font-style: italic;
+	padding-bottom: 1rem;
+	margin-top: -1.35rem;
+}
+
+
+/*.services img {
+	margin: 0;
+	padding: 0;
+	margin-left: 0;
+	padding-left: -10px;
+}*/
+
+.text {
+	padding: 3rem;
+	padding-top: 6rem;
+	padding-bottom:6rem;
+	transform: scale(1) translateX(-100px);
+}
+
+.left-text {
+	padding: 3rem;
+	padding-top: 6rem;
+	padding-bottom:6rem;
+	transform: scale(1) translateX(100px);
+	z-index: 1;
+}
+
+.services .left-text {
+	background-color: #161616;
+}
+
+.services .text {
+	background-color: #161616;	
+}
+
+.bar {
+	transform: scale(1) translateX(100px);
+	margin-bottom: 3rem;
+}
+
+.car {
+	transform: scale(1) translateX(-100px);
+	margin-bottom: 3rem;
+}
+
+.text p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .9rem;
+	padding-left: .75rem;
+	padding-right: .75rem;
+	text-align: center;
+}
+
+.text h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 1.15rem;
+	text-align: center;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.left-text p {
+font-family: 'Open Sans', sans-serif;
+font-size: .9rem;
+padding-left: .75rem;
+padding-right: .75rem;
+text-align: center;
+
+}
+
+.left-text h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 1.15rem;
+	text-align: center;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+
+
+
+
+/*WEDDINGS*/
+
+
+
+.weddings {
+	margin-top: 4rem;
+}
+
+.weddings h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5rem;
+	text-align: left;
+	font-weight: 400;
+	font-style: italic;
+	padding-left: 3rem;
+	margin-bottom: 1.5rem;
+}
+
+.weddings h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85rem;
+	text-align: left;
+	font-weight: 400;
+	letter-spacing: .15rem;
+	padding-left: 3rem;
+	margin-bottom: 0rem;
+}
+
+.weddings p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .9rem;
+	text-align: left;
+	font-weight: 400;
+	padding-left: 3rem;
+	padding-right: 2rem;
+	line-height: 1.5rem;
+}
+
+
+thead, tbody, tfoot {
+	border:none;
+	background-color: transparent;
+}
+
+
+/*FOOTER*/
+
+footer {
+	background-color: #161616;
+	margin-top: 2rem;
+}
+
+footer p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .9rem;
+	padding-top: 3rem;
+	line-height: 2rem;
+}
+
+footer img {
+	padding: 1rem;
+	padding-top: 3.35rem;
+}
+
+
+}
+
+
+
+
+/*MOBILE*/
+
+
+@media screen and (min-width: 40em) {
+
+
+	.booking {
+		position:absolute;
+	}
+
+}
+
+
+@media screen and (max-width: 40em) {
+
+	.hero img {
+		margin-top: 110px;
+	}
+
+	.hero p {
+		text-align: center;
+	}
+
+	.booking h3 {
+
+	text-align: center;
+}
+
+	.welcome h3 {
+		text-align: center;
+		margin-top: -1rem;
+	}
+	
+	.welcome h2 {
+		text-align: center;
+	}
+	
+	.welcome p {
+		text-align: center;
+		font-size: .9rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+
+	.upcomingevents h3 {
+		margin-top: 3.5rem;
+	}
+
+	.events img {
+		padding:0;
+		padding-bottom: 1rem;
+	}
+
+
+
+.events p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85rem;
+	text-align: center;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+
+.events .event {
+	background-color: #161616;
+	margin-bottom: 2rem;
+}
+
+.service-list h3 {
+	margin-top: 3.5rem;
+}
+
+.services p {
+	margin-bottom: 0rem;
+}
+
+.bar {
+	transform: scale(1) translateX(0px);
+	margin-bottom: 3rem;
+}
+
+
+.car {
+	transform: scale(1) translateX(0px);
+	margin-bottom: 3rem;
+}
+
+
+.left-text {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-left: -2rem;
+	transform: scale(1) translateY(-50px);
+}
+
+.text {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-left: -2rem;
+	transform: scale(1) translateY(-50px);
+
+}
+
+.weddings img{
+	margin-top: -2rem;
+	margin-bottom: 1rem;
+}
+
+.weddings h2 {
+	margin:0;
+	margin-top: -.35rem;
+	margin-bottom: .25rem;
+	padding: 0;
+	text-align: center;
+}
+
+.weddings h3 {
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+
+.weddings p {
+	margin:0;
+	padding: 0;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+}
